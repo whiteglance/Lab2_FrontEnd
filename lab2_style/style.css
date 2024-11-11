@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.blockWithBoxes{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+}
+
+/*1111111111111111111111 */
+.square1, .square2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 3px solid black;
+    opacity: .6;
+}
+
+.square1 {
+    background-color: #f4a460;
+}
+
+.square2 {
+    background-color: #d88a8a;
+    position: relative;
+    top: 50px; 
+    right: 50px;
+}
+/*222222222222222222222222222222 */
+.square3, .square4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 3px solid black;
+    opacity: .6;
+}
+
+.square3 {
+    background-color: #f4a460;
+}
+
+.square4 {
+    background-color: #d88a8a;
+    transform: translate(-50px, 50px);
+}

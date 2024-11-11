@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <link rel="stylesheet" href="lab2_style/style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        tr:first-child {
+            background-color: #488f8f ;
+            color: white;
+        }
+
+        tr:first-child:hover {
+            background-color: #f5f548;
+            color: black;
+        }
+
+        tr:nth-child(2) {
+            background-color: #f5f548;
+            color: black;
+        }
+
+        tr:nth-child(2):hover {
+            background-color: #488f8f;
+            color: white;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        .blockWithBoxes{
+        display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>Ячейка 1.1</td>
+            <td>Ячейка 1.2</td>
+            <td rowspan="2" colspan="2">Чернявський</td>
+            <td colspan="2">Денис</td>
+            <td rowspan="2" colspan="2">Сергійович</td>
+        </tr>
+        <tr>
+            <td colspan="2">ІК-24</td>
+            <td colspan="2">ЛР2 Варіант 48</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ячейка 9</td>
+            <td colspan="6">Ячейка 10</td>
+        </tr>
+    </table> 
+    <div class="blockWithBoxes">
+        <!-- Використання position -->
+        <div class="square1"></div>
+        <div class="square2"></div>
+
+        <!-- Використання transform -->
+        <div class="square3"></div>
+        <div class="square4"></div>
+    </div>
+</body>
+</html>
